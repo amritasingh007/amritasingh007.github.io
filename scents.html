@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>The Margarita Website Template</title>
+	<title>Scents - The Margarita Website Template</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -15,13 +15,13 @@
 			<div id="navigation">
 				<a href="checkout.html" class="cart"></a>
 				<ul>
-					<li class="selected">
+					<li>
 						<a href="index.html">Home</a>
 					</li>
 					<li>
 						<a href="news.html">What's New</a>
 					</li>
-					<li>
+					<li class="selected">
 						<a href="scents.html">Scents</a>
 					</li>
 					<li>
@@ -41,21 +41,11 @@
 		</div>
 		<div id="contents">
 			<div id="adbox">
-				<img src="images/perfume-ad.jpg" alt="Img">
+				<img src="images/perfume-adScents.jpg" style="margin-top:2px" height="157" alt="Img">
 			</div>
-			<div id="body">
+			<div class="body">
+				<h2>Scents</h2>
 				<div id="sidebar">
-					<div>
-						<a href="index.html"><img src="images/new-scent.jpg" alt="Img"></a>
-					</div>
-					<div>
-						<a href="index.html"><img src="images/new-fave.jpg" alt="Img"></a>
-					</div>
-					<form action="index.html" method="post" id="newsletter">
-						<h3>Subscribe to our newsletter</h3>
-						<input type="text" value="" class="txtfield">
-						<input type="submit" value="Sign up!" class="btn">
-					</form>
 					<div id="connect">
 						<h3>Connect with us</h3>
 						<ul>
@@ -73,34 +63,11 @@
 							</li>
 						</ul>
 					</div>
-				</div>
-				<div id="featured">
-					<h3>What’s new? Sed nec eros non metus auctor consectetur vel id dolor.</h3>
-					<ul>
-						<li>
-							<img src="images/perfume-test.jpg" alt="Img">
-							<h4>Lorem ipsum</h4>
-							<p>
-								In hendrerit sollicitudin eros, sit amet tincidunt magna condimentum id. Phasellus nec elementum quam. Vivamus at lectus purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-							</p>
-							<a href="index.html" class="more">&gt;&gt;&gt; Learn More</a>
-						</li>
-						<li>
-							<img src="images/perfumes.jpg" alt="Img">
-							<h4>Dolor sit amet</h4>
-							<p>
-								In hendrerit sollicitudin eros, sit amet tincidunt magna condimentum id. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent molestie metus sed turpis sollicitudin egestas scelerisque ligula lacinia.
-							</p>
-							<a href="index.html" class="more">&gt;&gt;&gt; Learn More</a>
-						</li>
-					</ul>
-				</div>
-				<div id="links">
-					<div>
-						<h3>Blog</h3>
-						<ul class="blog">
+					<div class="section">
+						<h3>Popular Posts</h3>
+						<ul id="posts">
 							<li>
-								&#8226; <a href="blog.html">We Have Free Templates for Everyone <span class="time">01 June 2012</span></a>
+								&#8226; <a href="blog.html">We Have More Templates for You <span class="time">01 June 2012</span></a>
 							</li>
 							<li>
 								&#8226; <a href="blog.html">Be Part of Our Community <span class="time">01 June 2012</span></a>
@@ -111,39 +78,58 @@
 						</ul>
 					</div>
 					<div>
-						<h3>Shop</h3>
-						<ul>
-							<li>
-								&#8226; <a href="shop.html">Lorem Ipsum</a>
-							</li>
-							<li>
-								&#8226; <a href="shop.html">in hendrerit sollicitudin eros</a>
-							</li>
-							<li>
-								&#8226; <a href="shop.html">sit amet tincidunt magna</a>
-							</li>
-							<li>
-								&#8226; <a href="shop.html">condimentum id</a>
-							</li>
-							<li>
-								&#8226; <a href="shop.html">penatibus et magnis dis parturient</a>
-							</li>
-							<a href="shop.html" class="more">View More</a>
-						</ul>
+						<a href="index.html"><img src="images/new-scent.jpg" alt="Img"></a>
+					</div>
+					<div>
+						<a href="index.html"><img src="images/shop-now.jpg" alt="Img"></a>
 					</div>
 				</div>
+				<ul id="scents" class="list">
+					<li>
+						<img src="images/scent-berry.jpg" alt="Img">
+						<h4>Strawberry Scent</h4>
+						<p>
+							In hendrerit sollicitudin eros, sit amet tincidunt magna condimentum id. Phasellus nec elementum quam. Vivamus at lectus purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+						</p>
+						<a href="scents.html" class="more">&gt;&gt;&gt; Learn More</a>
+					</li>
+					<li>
+						<img src="images/scent-lemon.jpg" alt="Img">
+						<h4>Lemon Scent</h4>
+						<p>
+							In hendrerit sollicitudin eros, sit amet tincidunt magna condimentum id. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent molestie metus sed turpis sollicitudin egestas scelerisque ligula lacinia.
+						</p>
+						<a href="scents.html" class="more">&gt;&gt;&gt; Learn More</a>
+					</li>
+					<li>
+						<img src="images/scent-apple.jpg" alt="Img">
+						<h4>Apple Scent</h4>
+						<p>
+							In hendrerit sollicitudin eros, sit amet tincidunt magna condimentum id. Phasellus nec elementum quam. Vivamus at lectus purus. Praesent molestie metus sed turpis sollicitudin egestas scelerisque ligula lacinia.
+						</p>
+						<a href="scents.html" class="more">&gt;&gt;&gt; Learn More</a>
+					</li>
+					<li>
+						<img src="images/scent-flower.jpg" alt="Img">
+						<h4>Flower Scent</h4>
+						<p>
+							In hendrerit sollicitudin eros, sit amet tincidunt magna condimentum id. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent molestie metus sed turpis sollicitudin egestas scelerisque ligula lacinia.
+						</p>
+						<a href="scents.html" class="more">&gt;&gt;&gt; Learn More</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 		<div id="footer">
 			<div>
 				<ul class="navigation">
-					<li class="selected">
+					<li>
 						<a href="index.html">Home</a>
 					</li>
 					<li>
 						<a href="news.html">What's New</a>
 					</li>
-					<li>
+					<li class="selected">
 						<a href="scents.html">Scents</a>
 					</li>
 					<li>
