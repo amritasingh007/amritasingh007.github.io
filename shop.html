@@ -2,24 +2,22 @@
 <!-- Website template by freewebsitetemplates.com -->
 <html>
 <head>
-<script>
-	
+<script>	
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-                    event: 'productImpression',
-                    ecommerce: {
-                        currencyCode: 'USD',
-                        impressions: [{
-                            name: 'Perfume 1', // You may want to get this dynamically as well
-                            price: price,
-                            brand: manufacturer,
-                            category: 'Fragrances',
-                            variant: 'New Arrival',
+                    event: 'addToCart',
+        ecommerce: {
+            add: {
+                products: [{
+                    id: product.id,           // Product ID
+                    name: product.name,       // Product Name
+                    category: product.category, // Product Category
+                    price: product.price,     // Product Price
+                    quantity: product.quantity // Quantity added to cart
                         }]
                     }
                 });
             });
-        });
 </script>
 <!--consent code-->
 <script src="https://consent.trustarc.com/v2/autoblockasset/core.min.js?cmId=shnyvb"></script>
